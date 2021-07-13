@@ -1,0 +1,29 @@
+.resosettings {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: grid;
+}
+
+.singlereso { border-style: solid;border-color: lightgray; border-width: 1px; display: grid; columns: 3; column-width: 33pc; grid-template-columns: 10ch 8ch auto;}
+.singlereso div { border-style:dotted ; border-width: 1px;}
+.labeltext {
+    display: inline-block;
+    grid-column: 1;
+    max-width: 170px;
+    border-color: indigo;
+    margin-right: 1px;
+    
+}
+
+.resodistance {
+    display: inline-block;
+    grid-column: 3;
+    max-width: 400px;
+    margin-left: 1px;
+}
+
+.resolevel {
+    display: inline-block;
+    grid-column: 2;
+}
